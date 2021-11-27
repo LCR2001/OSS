@@ -29,6 +29,7 @@
 
 ### 스플래쉬
  * [스플래쉬 구현 방법](https://hearit.tistory.com/21)
+   <img width="165" alt="The Spot " src="https://user-images.githubusercontent.com/91776093/143680991-e0ccf4a1-7aea-4246-8bd6-83e1e0ac7415.png">
 
  
 ### 기본 설정 화면
