@@ -22,6 +22,8 @@
    : 데이트 장소 주변 주차공간 여부. 
 
 ## Block Diagram
+ * [The Spot Algorithm] <img width="280" alt="시스템 개요-finally" src="https://user-images.githubusercontent.com/91776093/143679995-edf6e9b7-a1db-4baa-a878-fd186f511d40.png">
+
 
 ## 앱 실행 화면(-이미지 첨부)
 
