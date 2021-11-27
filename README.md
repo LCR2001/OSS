@@ -29,7 +29,7 @@
 
 ### 스플래쉬
  * [스플래쉬 구현 방법](https://hearit.tistory.com/21)
-[Splash image_image](https://user-images.githubusercontent.com/91776093/143299148-6ffc794b-3510-47b4-ba40-854a1442c9ca.png)
+
  
 ### 기본 설정 화면
  *차량 여부, 출발 지역, 원하는 데이트 지역, 데이트 취향(키워드 선택)
