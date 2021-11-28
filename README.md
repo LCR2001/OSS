@@ -22,6 +22,9 @@
  * 주차 관련
    : 데이트 장소 주변 주차공간 여부. 
 
+## 기존 관련 앱 분석
+<img width="412" alt="앱 분석 테이블" src="https://user-images.githubusercontent.com/91776093/143767997-4d46b976-41e0-4e16-aaa1-8cce18e7647f.png">
+
 ## Block Diagram
  * [The Spot Algorithm] <img width="280" alt="시스템 개요-finally" src="https://user-images.githubusercontent.com/91776093/143679995-edf6e9b7-a1db-4baa-a878-fd186f511d40.png">
 
