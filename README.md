@@ -2,11 +2,12 @@
 ## 주차 기능을 비롯한 데이트 취향 분석 알고리즘 기반의 앱 구현
 
 1. 기존의 데이트 앱 분석
- * 데이트팝, 완벽한 하루, 데이트립, 오브코스
+ * 데이트팝, 데이트립, 완벽한 하루, 오브코스, 대한민국 구석구석
    *[데이트팝](http://www.datepop.co.kr/view/)
-   *[완벽한 하루](https://www.instagram.com/perfectday_official/?hl=ko)
    *[데이트립](http://www.daytripapp.com/)
+   *[완벽한 하루](https://www.instagram.com/perfectday_official/?hl=ko)
    *[오브코스](http://ofcos.co.kr/)
+   *[대한민국 구석구석](https://korean.visitkorea.or.kr/main/main.do#home)
 2. 기존의 주차 관련 앱 분석
  * 카카오T 주차, T map 주차, 모두의 주차장, 아이파킹
    *[카카오T 주차](https://kakaotparking.com/)
