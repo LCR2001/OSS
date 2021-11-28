@@ -1,0 +1,103 @@
+**2-0
+#!/bin/sh
+echo hello world
+
+**2-1
+#! / bin/sh
+printf "input repeat number: "
+read n
+SET=$(seq 0 $n)
+for i in $SET
+do
+  echo "hello world"
+done
+
+**2-2
+#!/bin/sh
+  
+num1=1
+num2=4
+add=`expr $num1 + $num2`
+echo "1+4=$add"
+
+subtract=`expr $num1 - $num2`
+echo "1-4=$subtract"
+exit 0
+       
+**2-3
+#!/bin/sh
+printf "input height:"
+read a
+printf "input weight:"
+read b
+
+d=`expr $b/($a \* 0.01 \* $a \*0.01)`
+if [${d} -ge 18.5] && [${d} -lt 23];then
+   echo "normal weight"
+elif [${d} -lt 18.5];then 
+   echo "low weight"
+else 
+   echo "overweight"
+fi
+
+**2-4
+#!/bin/sh
+echo "Is Linux fun? (yes/no)"
+read answer
+case $answer in
+        yes|y|Y|Yes|YES)
+        echo "It's cool"
+        echo "try hard";;
+        [nN]*)
+        echo "It's so sad";;
+        *)
+        echo "you should input only yes or no"
+        exit 1;;
+esac
+exit 0
+                    
+**2-5
+#!/bin/sh
+  
+str="ls"
+myFunction (){
+echo "I'm in " 
+eval $str
+return
+}
+echo "start program"
+myFunction
+echo "Finish the program"
+exit 0
+
+**2-6
+#!/bin/sh
+  
+if [ ! -d $1 ]; then
+        mkdir $1
+fi
+
+**2-7
+#!/bin/sh
+  
+mkdir -p $!/{abc,def,ghi,jkl,mno}
+
+**2-8
+#!/bin/sh
+
+printf "input someone's name:"
+read name
+printf "input someone's phone number:"
+read num
+echo -e $name $num > DB.txt
+
+**2-9
+#!/bin/sh
+
+echo "Lee 010-2397-1756" > DB.txt
+echo "Minseo 010-9717-0582" > DB.txt
+echo "Yoonjin 010-5026-5247" > DB.txt
+
+printf "input name:"
+read n
+grep -r $n ./DB.txt
