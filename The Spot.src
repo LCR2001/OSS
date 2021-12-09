@@ -20,4 +20,39 @@ escaperoomcafe = np.array([1,1,0,1,0,0,0,0,1,0,1,0,0,0])
 
 print(cos_sim(doc1,doc2))
 
-<img width="649" alt="코사인 유사도 엑셀" src="https://user-images.githubusercontent.com/91776093/145388496-c315fd43-b6b2-442c-aac7-6c18de98dbe1.png">
+# IDF 행렬 만들어 주기
+IDF = []
+for df in DF:
+    IDF.append(np.log10(3/df))
+    
+# 각 문서 내 TF 계산
+TF1 = []
+TF2 = []
+TF3 = []
+TFsearch = []
+for Term in Terms:
+    TF1.append(DOC1.count(Term)/len(DOC1))
+    TF2.append(DOC2.count(Term)/len(DOC2))
+    TF3.append(DOC3.count(Term)/len(DOC3))
+    TFsearch.append(Search2.count(Term)/len(Search2))
+
+# TF-IDF 계산
+TF1_IDF = []
+TF2_IDF = []
+TF3_IDF = []
+TFsearch_IDF = []
+for i in range(len(Terms)):
+     TF1_IDF.append(IDF[i]*TF1[i])
+     TF2_IDF.append(IDF[i]*TF2[i])
+     TF3_IDF.append(IDF[i]*TF3[i])
+     TFsearch_IDF.append(IDF[i]*TFsearch[i])
+
+TF1_IDF= np.array(TF1_IDF)
+TFsearch_IDF = np.array(TFsearch_IDF)
+
+def cos_sim(A, B):
+       return dot(A, B)/(norm(A)*norm(B))
+   
+Doc1_ = cos_sim(TFsearch_IDF,TF1_IDF)
+Doc2_ = cos_sim(TFsearch_IDF,TF2_IDF)
+Doc3_ = cos_sim(TFsearch_IDF,TF3_IDF)
