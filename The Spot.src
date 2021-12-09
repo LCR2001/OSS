@@ -17,3 +17,5 @@ boardcafe = np.array([0,1,0,1,0,0,0,0,1,1,1,0,1,0])
 escaperoomcafe = np.array([1,1,0,1,0,0,0,0,1,0,1,0,0,0])
 
 print(cos_sim(doc1,doc2))
+
+<img width="649" alt="코사인 유사도 엑셀" src="https://user-images.githubusercontent.com/91776093/145388496-c315fd43-b6b2-442c-aac7-6c18de98dbe1.png">
