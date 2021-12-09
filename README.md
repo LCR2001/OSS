@@ -23,17 +23,17 @@
    : 데이트 장소 주변 주차공간 여부. 
 
 ## 기존 관련 앱 분석
-<img width="412" alt="앱 분석 테이블" src="https://user-images.githubusercontent.com/91776093/143767997-4d46b976-41e0-4e16-aaa1-8cce18e7647f.png">
+<p align="center"><img width="412" alt="앱 분석 테이블" src="https://user-images.githubusercontent.com/91776093/143767997-4d46b976-41e0-4e16-aaa1-8cce18e7647f.png"></p>
 
 ## Block Diagram
- * [The Spot Algorithm] <img width="280" alt="시스템 개요-finally" src="https://user-images.githubusercontent.com/91776093/143679995-edf6e9b7-a1db-4baa-a878-fd186f511d40.png">
+  <p align="center"><img width="280" alt="시스템 개요-finally" src="https://user-images.githubusercontent.com/91776093/143679995-edf6e9b7-a1db-4baa-a878-fd186f511d40.png" width="300" height="300"></p>
 
 
 ## 앱 실행 화면(-이미지 첨부)
 
 ### 스플래쉬
  * [스플래쉬 구현 방법](https://hearit.tistory.com/21)
-   <img width="165" alt="The Spot " src="https://user-images.githubusercontent.com/91776093/143680991-e0ccf4a1-7aea-4246-8bd6-83e1e0ac7415.png">
+   <p align="center"><img width="165" alt="The Spot " src="https://user-images.githubusercontent.com/91776093/143680991-e0ccf4a1-7aea-4246-8bd6-83e1e0ac7415.png" height="100%" width="100%"></p>
 
 ### 구현 영상
  * [The Spot 구현 영상]
