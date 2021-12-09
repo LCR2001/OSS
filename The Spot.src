@@ -1,0 +1,18 @@
+import numpy as np
+from numpy import dot
+from numpy.linalg import norm
+def cos_sim(A, B):
+  return dot(A, B)/(norm(A)*norm(B))
+
+amusement_park = np.array([1,1,0,1,0,1,0,0,0,0,0,0,0,1])
+movie_theather = np.array([0,0,0,0,1,0,1,0,1,1,1,1,0,0])
+workroom = np.array([1,0,1,1,0,0,1,1,1,0,0,0,0,1])
+cafe = np.array([0,1,0,1,0,0,1,0,1,1,1,1,1,1])
+game_field = np.array([1,1,0,1,0,1,0,0,1,1,1,0,1,0])
+library = np.array([0,0,0,0,1,0,0,1,1,1,1,0,1,0])
+park = np.array([1,1,0,1,0,1,1,0,1,1,1,1,1,1])
+aquarium = np.array([1,0,0,1,0,0,1,0,0,0,0,1,0,1])
+bookcafe = np.array([0,0,0,0,1,0,0,1,1,1,1,1,1,0])
+boardcafe = np.array([0,1,0,1,0,0,0,0,1,1,1,0,1,0])
+escaperoomcafe = np.array([1,1,0,1,0,0,0,0,1,0,1,0,0,0])
+
