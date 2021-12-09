@@ -36,7 +36,7 @@
    <img width="165" alt="The Spot " src="https://user-images.githubusercontent.com/91776093/143680991-e0ccf4a1-7aea-4246-8bd6-83e1e0ac7415.png">
 
 ### 구현 영상
- * [The Spot 구현 형상]
+ * [The Spot 구현 영상]
    https://user-images.githubusercontent.com/91776093/145330397-9fbdfa89-653e-4521-8631-658b99ebcf91.MP4
 
 ### 기본 설정 화면
