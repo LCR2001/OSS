@@ -1,3 +1,5 @@
+##장소 추천을 위한 코사인 유사도 소스코드
+
 import numpy as np
 from numpy import dot
 from numpy.linalg import norm
